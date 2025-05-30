@@ -1,0 +1,8 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - C:\Users\Neha Reddy\OneDrive\Desktop\project\logs\*.log
+
+output.logstash:
+  hosts: ["localhost:5044"]
